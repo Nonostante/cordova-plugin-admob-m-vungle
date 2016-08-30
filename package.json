@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-admob-m-vungle",
+  "version": "1.0.0",
+  "description": "Add Vungle mediation to AdMob cordova plugin",
+  "cordova": {
+    "id": "cordova-plugin-admob-m-vungle",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nonostante/cordova-plugin-admob-m-vungle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nonostante/cordova-plugin-admob-m-vungle/issues"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "vungle",
+    "admob"
+  ],
+  "author": {
+    "name": "Giuseppe La Torre"
+  },
+  "license": "MIT"
+}

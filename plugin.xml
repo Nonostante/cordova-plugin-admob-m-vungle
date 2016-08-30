@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-admob-m-vungle"
+        version="1.0.0">
+      
+    <name>Vungle mediation for AdMob</name>
+    <description>Add Vungle mediation to AdMob cordova plugin</description>
+    <author>Nonostante</author>
+    <keywords>cordova,admob,vungle</keywords>
+    <repo>https://github.com/nonostante/cordova-plugin-admob-m-vungle.git</repo>
+    <issue>https://github.com/nonostante/cordova-plugin-admob-m-vungle/issues</issue>
+
+    <engines>
+        <engine name="cordova" version=">=3.0" />
+    </engines>
+
+    <platform name="android">
+        <source-file src="src/android/VungleAdapter.jar" target-dir="libs" />
+     </platform>
+
+     <platform name="ios">
+        <source-file src="src/ios/libVungleAdapter.a" framework="true"/>
+    </platform>
+
+</plugin>
