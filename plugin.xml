@@ -22,6 +22,7 @@
 
      <platform name="ios">
         <source-file src="src/ios/libVungleAdapter.a" framework="true"/>
+        <header-file src="src/ios/VungleAdNetworkExtras.h" />
     </platform>
 
 </plugin>
